@@ -1,0 +1,30 @@
+{
+  "name": "cryptomancy-oblivion",
+  "version": "1.0.0",
+  "description": "a flexible implementation of oblivious transfer",
+  "homepage": "https://github.com/ansuz/cryptomancy-oblivion",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js",
+    "lint": "jshint --config .jshintrc --exclude-path .jshintignore ."
+  },
+  "keywords": [
+    "oblivious-transfer",
+    "cryptography",
+    "crypto",
+    "ot"
+  ],
+  "author": "ansuz",
+  "license": "AGPL",
+  "dependencies": {
+    "cryptomancy-format": "^1.0.2",
+    "cryptomancy-prime": "^1.0.2",
+    "cryptomancy-source": "^1.0.3",
+    "jsbn": "1.1.0",
+    "tweetnacl": "^1.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ansuz/cryptomancy-oblivion"
+  }
+}
